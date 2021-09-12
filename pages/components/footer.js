@@ -6,9 +6,9 @@ const Footer = () => {
             <div className="max-w-4xl px-4 mx-auto text-gray-800 dark:text-white">
                 <div className="pb-8 mb-2 border-t-2 border-gray-300 dark:border-white-300"></div>
                 <div className="flex flex-col justify-between lg:flex-row items-center">
-                    <p>Theme from 
+                    <p>Theme from&nbsp;
                         <a
-                            href="https://github.com/hammadkhokhar/minimal-personal"
+                            href="https://github.com/hammadkhokhar/minimal-personal-website"
                             className={"transition-colors hover:text-yellow-500"}
                             target="_blank"
                             rel="noreferrer"
