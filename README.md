@@ -1,4 +1,4 @@
-# Next.js + Tailwind Personal Website
+# Next.js + Tailwind Minimal Personal Website
 
 It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
 
