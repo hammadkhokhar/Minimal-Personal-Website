@@ -47,7 +47,7 @@ import {
   SiStackoverflow,
   SiTwilio,
   SiHeroku,
-  SiShopify
+  SiShopify,
 } from "react-icons/si";
 import { FaNode } from "react-icons/fa";
 

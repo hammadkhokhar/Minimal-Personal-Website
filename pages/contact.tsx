@@ -1,7 +1,5 @@
 import Head from "next/head";
-import About from "./components/about";
-import Technologies from "./components/technologies";
-import { FaRegArrowAltCircleDown } from "react-icons/fa";
+import Contact from "./components/contact";
 
 export default function Home() {
   return (
@@ -36,7 +34,7 @@ export default function Home() {
 
       <main className="max-w-4xl mx-auto mt-16 antialiased">
         <>
-          
+          <Contact />
         </>
       </main>
     </div>
