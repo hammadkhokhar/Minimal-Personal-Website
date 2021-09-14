@@ -14,6 +14,15 @@ const Navigation = () => {
             Hammad Khokhar
           </a>
         </Link>
+        <Link href="/contact">
+          <a
+            className={
+              "font-medium tracking-wider transition-colors text-xs uppercase dark:text-white"
+            }
+          >
+            Hire Me
+          </a>
+        </Link>
       </div>
     </div>
   );
