@@ -47,6 +47,7 @@ import {
   SiStackoverflow,
   SiTwilio,
   SiHeroku,
+  SiShopify
 } from "react-icons/si";
 import { FaNode } from "react-icons/fa";
 
@@ -108,6 +109,9 @@ const Technologies = () => {
             </span>
             <span className="inline-flex items-center m-1 py-0.5 pl-2 pr-2 text-xs font-medium">
               <SiGoogleads color="white" title="Googleads" size="50px" />
+            </span>
+            <span className="inline-flex items-center m-1 py-0.5 pl-2 pr-2 text-xs font-medium">
+              <SiShopify color="white" title="Shopify" size="50px" />
             </span>
           </div>
         </div>
