@@ -12,7 +12,7 @@ export default function Home() {
         <title>Hammad Khokhar</title>
         <meta name="robots" content="follow, index" />
         <meta
-          content="Hammad Khokhar is cloud-based web application and REST APIs developer."
+          content="Hammad Khokhar develops robust and scalable cloud-based web applications and REST APIs."
           name="description"
         />
         <meta property="og:url" content={`https://hammadkhokhar.com`} />
