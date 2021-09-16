@@ -35,7 +35,7 @@ const About = () => {
             ))}
           </div>
         </div>
-        <div className="flex-shrink-0 lg:mt-16 lg:px-4 mb-10">
+        <div className="flex-shrink-0 lg:mt-16 lg:px-4 mb-1">
           <Image
             src="/hammad-khokhar-avatar.png"
             alt="Profile"
