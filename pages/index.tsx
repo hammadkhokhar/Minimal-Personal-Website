@@ -1,6 +1,7 @@
 import Head from "next/head";
 import About from "./components/about";
 import Technologies from "./components/technologies";
+import Client from "./components/clients"
 import { FaRegArrowAltCircleDown } from "react-icons/fa";
 
 export default function Home() {
@@ -38,6 +39,7 @@ export default function Home() {
       <main className="max-w-4xl mx-auto mt-16 antialiased">
         <>
           <About />
+          <Client/>
           <div className="grid justify-items-center">
             <FaRegArrowAltCircleDown
               color="white"
