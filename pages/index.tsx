@@ -45,7 +45,7 @@ export default function Home() {
               color="white"
               title="AWS icon"
               size="20px"
-              className="h-48 animate-pulse"
+              className="h-20 animate-pulse"
             />
           </div>
           <Technologies />

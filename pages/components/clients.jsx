@@ -10,7 +10,15 @@ const Clients = () => {
           <h1 className="text-2xl font-bold text-gray-900 h-10 lg:text-2xl dark:text-white">
             Worked with leading brands
           </h1>
-          <div className="inline-flex items-center mr-2 py-0.5 pl-2 pr-2">
+          <div className="inline-flex items-center mr-2 pl-2 pr-2">
+            <Image
+              src="/huawei.png"
+              alt="Profile"
+              priority={true}
+              className="rounded-full mx-auto"
+              width={60}
+              height={60}
+            />
             <SiEasyjet
               color="white"
               title="Iata"
