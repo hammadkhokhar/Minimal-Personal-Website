@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { Si1Password, SiAdobe, SiEasyjet, SiIata } from "react-icons/si";
+import {SiEasyjet, SiIata } from "react-icons/si";
 
 const Clients = () => {
   return (
