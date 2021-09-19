@@ -42,7 +42,7 @@ export default function Home() {
           <Client />
           <div className="grid justify-items-center">
             <FaRegArrowAltCircleDown
-              color="white"
+              color="white dark:black"
               title="AWS icon"
               size="20px"
               className="h-20 animate-pulse"

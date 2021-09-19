@@ -62,56 +62,56 @@ const Technologies = () => {
           </h1>
           <div className="mt-6 text-gray-800 dark:text-white">
             <span className="inline-flex items-center mr-1 py-0.5 pl-2 pr-2 rounded-full text-xs font-medium">
-              <SiVisualstudiocode color="white" title="VS Code" size="50px" />
+              <SiVisualstudiocode color="white dark:black" title="VS Code" size="50px" />
             </span>
             <span className="inline-flex items-center m-1 py-0.5 pl-2 pr-2 rounded-full text-xs font-medium">
-              <SiPostman color="white" title="Postman" size="50px" />
+              <SiPostman color="white dark:black" title="Postman" size="50px" />
             </span>
             <span className="inline-flex items-center m-1 py-0.5 pl-2 pr-2 rounded-full text-xs font-medium">
-              <SiSentry color="white" title="Sentry" size="50px" />
+              <SiSentry color="white dark:black" title="Sentry" size="50px" />
             </span>
             <span className="inline-flex items-center m-1 py-0.5 pl-2 pr-2 rounded-full text-xs font-medium">
-              <SiGit color="white" title="Git" size="50px" />
+              <SiGit color="white dark:black" title="Git" size="50px" />
             </span>
             <span className="inline-flex items-center m-1 py-0.5 pl-2 pr-2 rounded-full text-xs font-medium">
-              <SiSnyk color="white" title="Snyk" size="50px" />
+              <SiSnyk color="white dark:black" title="Snyk" size="50px" />
             </span>
             <span className="inline-flex items-center m-1 py-0.5 pl-2 pr-2 rounded-full text-xs font-medium">
-              <SiGithub color="white" title="Github" size="50px" />
+              <SiGithub color="white dark:black" title="Github" size="50px" />
             </span>
             <span className="inline-flex items-center m-1 py-0.5 pl-2 pr-2 rounded-full text-xs font-medium">
-              <SiDocker color="white" title="Docker" size="50px" />
+              <SiDocker color="white dark:black" title="Docker" size="50px" />
             </span>
             <span className="inline-flex items-center m-1 py-0.5 pl-2 pr-2 rounded-full text-xs font-medium">
-              <SiAsana color="white" title="Asana" size="50px" />
+              <SiAsana color="white dark:black" title="Asana" size="50px" />
             </span>
             <span className="inline-flex items-center m-1 py-0.5 pl-2 pr-2 rounded-full text-xs font-medium">
-              <SiJira color="white" title="Jira" size="50px" />
+              <SiJira color="white dark:black" title="Jira" size="50px" />
             </span>
             <span className="inline-flex items-center m-1 py-0.5 pl-2 pr-2 rounded-full text-xs font-medium">
-              <SiTrello color="white" title="Trello" size="50px" />
+              <SiTrello color="white dark:black" title="Trello" size="50px" />
             </span>
             <span className="inline-flex items-center m-1 py-0.5 pl-2 pr-2 rounded-full text-xs font-medium">
-              <SiSlack color="white" title="Slack" size="50px" />
+              <SiSlack color="white dark:black" title="Slack" size="50px" />
             </span>
             <span className="inline-flex items-center m-1 py-0.5 pl-2 pr-2 rounded-full text-xs font-medium">
-              <SiWebstorm color="white" title="Webstorm" size="50px" />
+              <SiWebstorm color="white dark:black" title="Webstorm" size="50px" />
             </span>
             <span className="inline-flex items-center m-1 py-0.5 pl-2 pr-2 rounded-full text-xs font-medium">
               <SiStackoverflow
-                color="white"
+                color="white dark:black"
                 title="Stackoverflow"
                 size="50px"
               />
             </span>
             <span className="inline-flex items-center m-1 py-0.5 pl-2 pr-2 rounded-full text-xs font-medium">
-              <SiZoom color="white" title="Zoom" size="50px" />
+              <SiZoom color="white dark:black" title="Zoom" size="50px" />
             </span>
             <span className="inline-flex items-center m-1 py-0.5 pl-2 pr-2 text-xs font-medium">
-              <SiGoogleads color="white" title="Googleads" size="50px" />
+              <SiGoogleads color="white dark:black" title="Googleads" size="50px" />
             </span>
             <span className="inline-flex items-center m-1 py-0.5 pl-2 pr-2 text-xs font-medium">
-              <SiShopify color="white" title="Shopify" size="50px" />
+              <SiShopify color="white dark:black" title="Shopify" size="50px" />
             </span>
           </div>
         </div>
@@ -127,23 +127,23 @@ const Technologies = () => {
               Express
             </span>
             <span className="inline-flex items-center m-1 py-0.5 pl-2 pr-2 text-xs font-medium">
-              <SiTypescript color="white" title="TyepScript" size="50px" />
+              <SiTypescript color="white dark:black" title="TyepScript" size="50px" />
             </span>
             <span className="inline-flex items-center m-1 py-0.5 pl-2 pr-2 text-xs font-medium">
-              <SiBootstrap color="white" title="Bootstrap" size="50px" />
+              <SiBootstrap color="white dark:black" title="Bootstrap" size="50px" />
             </span>
             <span className="inline-flex items-center m-1 py-0.5 pl-2 pr-2 text-xs font-medium">
-              <SiDjango color="white" title="Django" size="50px" />
+              <SiDjango color="white dark:black" title="Django" size="50px" />
               Rest
             </span>
             <span className="inline-flex items-center m-1 py-0.5 pl-2 pr-2 text-xs font-medium">
-              <SiJinja color="white" title="Jinja" size="50px" />
+              <SiJinja color="white dark:black" title="Jinja" size="50px" />
             </span>
             <span className="inline-flex items-center m-1 py-0.5 pl-2 pr-2 text-xs font-medium">
-              <SiNextDotJs color="white" title="NextJS" size="50px" />
+              <SiNextDotJs color="white dark:black" title="NextJS" size="50px" />
             </span>
             <span className="inline-flex items-center m-1 py-0.5 pl-2 pr-2 text-xs font-medium">
-              <SiJest color="white" title="Jest" size="50px" />
+              <SiJest color="white dark:black" title="Jest" size="50px" />
             </span>
           </div>
         </div>
@@ -156,37 +156,37 @@ const Technologies = () => {
           </h1>
           <div className="mt-6 text-gray-800 dark:text-white">
             <span className="inline-flex items-center mr-1 py-0.5 pl-2 pr-2 text-xs font-medium">
-              <FaNode color="white" title="NodeJS" size="50px" />
+              <FaNode color="white dark:black" title="NodeJS" size="50px" />
             </span>
             <span className="inline-flex items-center m-1 py-0.5 pl-2 pr-2 text-xs font-medium">
-              <SiJavascript color="white" title="Javascript" size="50px" />
+              <SiJavascript color="white dark:black" title="Javascript" size="50px" />
             </span>
             <span className="inline-flex items-center m-1 py-0.5 pl-2 pr-2 text-xs font-medium">
-              <SiJson color="white" title="JSON" size="50px" />
+              <SiJson color="white dark:black" title="JSON" size="50px" />
             </span>
             <span className="inline-flex items-center m-1 py-0.5 pl-2 pr-2 text-xs font-medium">
-              <SiJsonwebtokens color="white" title="NextJS" size="50px" />
+              <SiJsonwebtokens color="white dark:black" title="NextJS" size="50px" />
             </span>
             <span className="inline-flex items-center m-1 py-0.5 pl-2 pr-2 text-xs font-medium">
-              <SiSocketDotIo color="white" title="websockets" size="50px" />
+              <SiSocketDotIo color="white dark:black" title="websockets" size="50px" />
             </span>
             <span className="inline-flex items-center m-1 py-0.5 pl-2 pr-2 text-xs font-medium">
-              <SiCloudflare color="white" title="Cloudflare" size="50px" />
+              <SiCloudflare color="white dark:black" title="Cloudflare" size="50px" />
             </span>
             <span className="inline-flex items-center m-1 py-0.5 pl-2 pr-2 text-xs font-medium">
-              <SiSwagger color="white" title="Swagger" size="50px" />
+              <SiSwagger color="white dark:black" title="Swagger" size="50px" />
             </span>
             <span className="inline-flex items-center m-1 py-0.5 pl-2 pr-2 text-xs font-medium">
-              <SiJenkins color="white" title="Jenkins" size="50px" />
+              <SiJenkins color="white dark:black" title="Jenkins" size="50px" />
             </span>
             <span className="inline-flex items-center m-1 py-0.5 pl-2 pr-2 text-xs font-medium">
-              <SiTwilio color="white" title="Twilio" size="50px" />
+              <SiTwilio color="white dark:black" title="Twilio" size="50px" />
             </span>
             <span className="inline-flex items-center m-1 py-0.5 pl-2 pr-2 text-xs font-medium">
-              <SiPython color="white" title="Python" size="50px" />
+              <SiPython color="white dark:black" title="Python" size="50px" />
             </span>
             <span className="inline-flex items-center m-1 py-0.5 pl-2 pr-2 text-xs font-medium">
-              <SiGraphql color="white" title="GraphQL" size="50px" />
+              <SiGraphql color="white dark:black" title="GraphQL" size="50px" />
             </span>
           </div>
         </div>
@@ -199,11 +199,11 @@ const Technologies = () => {
           </h1>
           <div className="mt-6 text-gray-800 dark:text-white">
             <span className="inline-flex items-center mr-1 py-0.5 pl-2 pr-2 text-xs font-medium">
-              <SiMysql color="white" title="AWS" size="50px" />
+              <SiMysql color="white dark:black" title="AWS" size="50px" />
               ORM
             </span>
             <span className="inline-flex items-center m-1 py-0.5 pl-2 pr-2 text-xs font-medium">
-              <SiMongodb color="white" title="MongoDB" size="50px" />
+              <SiMongodb color="white dark:black" title="MongoDB" size="50px" />
             </span>
             <span className="inline-flex items-center m-1  text-lg font-medium">
               NoSQL
@@ -219,19 +219,19 @@ const Technologies = () => {
           </h1>
           <div className="mt-6 text-gray-800 dark:text-white">
             <span className="inline-flex items-center mr-1 py-0.5 pl-2 pr-2 text-xs font-medium">
-              <SiAmazonaws color="white" title="AWS" size="50px" />
+              <SiAmazonaws color="white dark:black" title="AWS" size="50px" />
             </span>
             <span className="inline-flex items-center m-1 py-0.5 pl-2 pr-2 text-xs font-medium">
-              <SiFirebase color="white" title="Firebase" size="50px" />
+              <SiFirebase color="white dark:black" title="Firebase" size="50px" />
             </span>
             <span className="inline-flex items-center m-1 py-0.5 pl-2 pr-2 text-xs font-medium">
-              <SiGooglecloud color="white" title="Google cloud" size="50px" />
+              <SiGooglecloud color="white dark:black" title="Google cloud" size="50px" />
             </span>
             <span className="inline-flex items-center m-1 py-0.5 pl-2 pr-2 text-xs font-medium">
-              <SiHeroku color="white" title="Heroku" size="50px" />
+              <SiHeroku color="white dark:black" title="Heroku" size="50px" />
             </span>
             <span className="inline-flex items-center m-1 py-0.5 pl-2 pr-2 text-xs font-medium">
-              <SiKubernetes color="white" title="Kubernetes" size="50px" />
+              <SiKubernetes color="white dark:black" title="Kubernetes" size="50px" />
             </span>
           </div>
         </div>
@@ -245,21 +245,21 @@ const Technologies = () => {
           <div className="mt-6 text-gray-800 dark:text-white">
             <span className="inline-flex items-center mr-1 py-0.5 pl-2 pr-2 text-xs font-medium">
               <SiAdobephotoshop
-                color="white"
+                color="white dark:black"
                 title="Adobe Photoshop"
                 size="50px"
               />
             </span>
             <span className="inline-flex items-center m-1 py-0.5 pl-2 pr-2 text-xs font-medium">
               <SiAdobepremiere
-                color="white"
+                color="white dark:black"
                 title="Adobe Premier"
                 size="50px"
               />
             </span>
             <span className="inline-flex items-center m-1 py-0.5 pl-2 pr-2 text-xs font-medium">
               <SiAdobeaftereffects
-                color="white"
+                color="white dark:black"
                 title="After Effects"
                 size="50px"
               />

@@ -23,7 +23,7 @@ const Clients = () => {
             </div>
             <div className="ml-24">
               <SiIata
-                color="white"
+                color="white dark:black"
                 title="Iata"
                 size="30px"
                 className="items-center justify-center"
