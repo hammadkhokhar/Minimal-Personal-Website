@@ -179,7 +179,7 @@ const Contact = () => {
               id="test"
               size="invisible"
               ref={hcaptchaRef}
-              sitekey={process.env.HCAPTCHA_PUBLIC}
+              sitekey="e20c3a3b-a080-43ba-bc9c-c8495223f46a"
               onVerify={onHCaptchaChange}
             />
             <div className="flex flex-row items-center justify-start">
