@@ -4,32 +4,64 @@ sendgrid.setApiKey(process.env.SENDGRID);
 
 async function sendEmail(req, res) {
   try {
-    await sendgrid.send({
-      to: "hello@hammadkhokhar.com", //verify your domain with sendgrid first
-      from: "hello@hammadkhokhar.com",
-      subject: `[Lead from website] : ${req.body.subject}`,
-      html: `<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-      <html lang="en">
-      <body>
-        <div class="img-container" style="display: flex;justify-content: center;align-items: center;border-radius: 5px;overflow: hidden; font-family: 'helvetica', 'ui-sans';">              
-              </div>
-              <div class="container" style="margin-left: 20px;margin-right: 20px;">
-              <h3>You've got a new mail from ${req.body.fullname}, their email is: ✉️${req.body.email} </h3>
-              <div style="font-size: 16px;">
-              <p>Message:</p>
-              <p>${req.body.message}</p>
-              <br>
-              </div>
-              </div>
-      </body>
-      </html>`,
+    const response = await fetch(
+      `https://hcaptcha.com/siteverify`,
+      {
+        headers: {
+          "Content-Type": "application/x-www-form-urlencoded; charset=utf-8",
+        },
+        body: `response=${req.body.captcha}&secret=${process.env.HCAPTCHA_SECRET}`,
+        method: "POST",
+      }
+    );
+    const captchaValidation = await response.json();
+    /**
+     * {
+     *    "success": true|false,     // is the passcode valid, and does it meet security criteria you specified, e.g. sitekey?
+     *    "challenge_ts": timestamp, // timestamp of the challenge (ISO format yyyy-MM-dd'T'HH:mm:ssZZ)
+     *    "hostname": string,        // the hostname of the site where the challenge was solved
+     *    "credit": true|false,      // optional: whether the response will be credited
+     *    "error-codes": [...]       // optional: any error codes
+     *  }
+     */
+     if (captchaValidation.success) {
+      await sendgrid.send({
+        to: "hello@hammadkhokhar.com", //verify your domain with sendgrid first
+        from: "hello@hammadkhokhar.com",
+        subject: `[Lead from website] : ${req.body.subject}`,
+        html: `<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+        <html lang="en">
+        <body>
+                <div class="container" style="margin-left: 20px;margin-right: 20px;">
+                <h3>You've got a new mail from ${req.body.fullname}, their email is: ✉️${req.body.email} </h3>
+                <div style="font-size: 16px;">
+                <p>Subject:</p>
+                <p>${req.body}</p>
+                <br>
+                <div style="font-size: 16px;">
+                <p>Message:</p>
+                <p>${req.body.message}</p>
+                <br>
+                </div>
+                </div>
+        </body>
+        </html>`,
+      });
+      return res
+        .status(200)
+        .json({ Success: "Email has been sent successfully." });
+    }
+
+    return res.status(422).json({
+      message: "Unproccesable request, Invalid captcha code",
     });
+
   } catch (error) {
-    // console.log(error);
+    console.log(error);
     return res.status(error.statusCode || 500).json({ error: error.message });
   }
 
-  return res.status(200).json({ error: "Unknown error occurred." });
+  return res.status(500).json({ error: "Unknown error occurred." });
 }
 
 export default sendEmail;
