@@ -176,8 +176,9 @@ const Contact = () => {
               className="bg-transparent border-b py-2 focus:outline-none font-light text-gray-50"
             ></textarea>
             <HCaptcha
-              id="test"
-              size="invisible"
+              id="robotTest"
+              data-theme="dark"
+              data-error-callback="onError"
               ref={hcaptchaRef}
               sitekey="e20c3a3b-a080-43ba-bc9c-c8495223f46a"
               onVerify={onHCaptchaChange}
