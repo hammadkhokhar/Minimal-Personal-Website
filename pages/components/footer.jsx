@@ -32,14 +32,6 @@ const Footer = () => {
               Twitter
             </a>
             <a
-              href="https://www.linkedin.com/in/hammadkhokhar/"
-              className={"transition-colors hover:text-blue-500"}
-              target="_blank"
-              rel="noreferrer"
-            >
-              LinkedIn
-            </a>
-            <a
               href="https://github.com/hammadkhokhar"
               className={"transition-colors hover:text-yellow-500"}
               target="_blank"
