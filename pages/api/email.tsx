@@ -10,7 +10,7 @@ async function sendEmail(req, res) {
         headers: {
           "Content-Type": "application/x-www-form-urlencoded; charset=utf-8",
         },
-        body: `response=${req.body.captcha}&secret=${process.env.HCAPTCHA_SECRET}`,
+        body: `response=${req.body.hcaptchaRef}&secret=${process.env.HCAPTCHA_SECRET}`,
         method: "POST",
       }
     );
@@ -25,6 +25,7 @@ async function sendEmail(req, res) {
      *  }
      */
      if (captchaValidation.success) {
+       console.log('captcha success')
       await sendgrid.send({
         to: "hello@hammadkhokhar.com", //verify your domain with sendgrid first
         from: "hello@hammadkhokhar.com",
@@ -47,11 +48,12 @@ async function sendEmail(req, res) {
         </body>
         </html>`,
       });
+      console.log('email sent from server.')
       return res
         .status(200)
         .json({ Success: "Email has been sent successfully." });
     }
-
+    console.log('unprocessable entry.')
     return res.status(422).json({
       message: "Unproccesable request, Invalid captcha code",
     });
