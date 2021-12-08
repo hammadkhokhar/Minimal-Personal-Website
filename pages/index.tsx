@@ -24,8 +24,8 @@ export default function Home() {
           property="og:description"
           content="Hammad Khokhar develops robust and scalable cloud-based web applications and REST APIs."
         />
-        <meta property="og:title" content="Hammad Khokhar" />
-        <meta property="og:image" content="/hammad-khokhar-avatar.png" />
+        <meta property="og:title" content="Hammad Khokhar - Full Stack Developer" />
+        <meta property="og:image" content="https://www.hammadkhokhar.com/_next/image?url=%2Fhammad-khokhar-avatar.png&w=640&q=75" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@hammadkhokhar" />
         <meta name="twitter:title" content="Hammad Khokhar" />
@@ -33,7 +33,7 @@ export default function Home() {
           name="twitter:description"
           content="Hammad Khokhar develops robust and scalable cloud-based web applications and REST APIs."
         />
-        <meta name="twitter:image" content="/hammad-khokhar-avatar.png" />
+        <meta name="twitter:image" content="https://www.hammadkhokhar.com/_next/image?url=%2Fhammad-khokhar-avatar.png&w=640&q=75" />
       </Head>
 
       <main className="max-w-4xl mx-auto mt-16 antialiased">
