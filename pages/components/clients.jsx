@@ -30,16 +30,6 @@ const Clients = () => {
               />
               <h4 className="text-sm">Agencies</h4>
             </div>
-            <div className="ml-20">
-              <Image
-                src="/scb-logo-white.png"
-                alt="Profile"
-                priority={true}
-                className="mx-auto"
-                width={150}
-                height={60}
-              />
-            </div>
           </div>
         </div>
       </div>

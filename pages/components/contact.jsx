@@ -128,7 +128,6 @@ const Contact = () => {
               name="fullname"
               className="bg-transparent border-b py-2 focus:outline-none font-light text-gray-50"
             />
-
             <label
               htmlFor="email"
               className="text-gray-500 font-light mt-4 dark:text-gray-50"
